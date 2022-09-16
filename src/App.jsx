@@ -1,3 +1,4 @@
+import React from 'react'
 import Navbar from "./Components/Navbar/Navbar";
 import MainRoom from "./Components/MainRoom/MainRoom";
 import SignUp from "./Components/Authentication/SignUp/SignUp";
