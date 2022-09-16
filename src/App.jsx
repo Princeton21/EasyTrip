@@ -1,5 +1,5 @@
 import Navbar from "./Components/Navbar/Navbar";
-import MainRoom from "./MainRoom/MainRoom";
+import MainRoom from "./Components/MainRoom/MainRoom";
 import SignUp from "./Components/Authentication/SignUp/SignUp";
 import { Route, Routes } from "react-router-dom";
 function App() {
