@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./Components/LandingPage/Landing";
 import MainRoom from "./Components/MainRoom/MainRoom";
 import SignUp from "./Components/Authentication/SignUp/SignUp";
 import { Route, Routes } from "react-router-dom";
