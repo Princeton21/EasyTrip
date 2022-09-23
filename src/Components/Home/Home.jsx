@@ -1,23 +1,16 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom';
-import Navbar from '../Navbar/Navbar';
 import './Home.css'
 const Home = () => {
-  const navigate = useNavigate();
-
-  const navigateToCreateTrip = () => {
-    navigate('/cTrip');
-  };
   return (
     <>
-      <Navbar/>
       <div className="centre_body">
         <div className="hero-section"> 
         <div id="info-section">     
         <div className="hometitle">Easy Trip</div>
               <div className="homedesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magnam quae quas saepe earum neque. Culpa, sint asperiores? Dolore, maiores.</div>
         <div className="buttons">
-          <button className="plan" onClick={navigateToCreateTrip}>Plan a trip</button>
+          <button className="plan">Plan a trip</button>
           <button className="join">Join a room</button>
         </div>
         </div>

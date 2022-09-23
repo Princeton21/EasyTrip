@@ -8,11 +8,13 @@ import Home from './Components/Home/Home';
 function App() {
   return (
     <>
-    <Home/>
-      {/* <Navbar /> 
-      <Route exact path="MainRoom" element={<MainRoom/>}/>
-      <Route exact path="SignUp" element={<SignUp/>}/>
-      <Route exact path="AboutUs" element={<AboutUs/>}/> */}
+      <Navbar /> 
+      <Routes>
+      <Route exact path="/" element={<Home/>}/>
+      <Route exact path="/MainRoom" element={<MainRoom/>}/>
+      <Route exact path="/SignUp" element={<SignUp/>}/>
+      <Route exact path="/AboutUs" element={<AboutUs/>}/>
+      </Routes>
     </>
   );
 }
