@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import {useNavigate} from 'react-router-dom';
 import './Home.css'
 const Home = () => {
@@ -10,7 +11,9 @@ const Home = () => {
         <div className="hometitle">Easy Trip</div>
               <div className="homedesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magnam quae quas saepe earum neque. Culpa, sint asperiores? Dolore, maiores.</div>
         <div className="buttons">
+          <Link to="/Plan_a_trip">
           <button className="plan">Plan a trip</button>
+          </Link>
           <button className="join">Join a room</button>
         </div>
         </div>

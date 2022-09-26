@@ -5,6 +5,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import { Route, Routes } from "react-router-dom";
 import MainRoom from './Components/MainRoom/MainRoom';
 import Home from './Components/Home/Home';
+import Plan_a_trip from './Components/Home/Plan_a_trip/Plan_a_trip';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Route exact path="/MainRoom" element={<MainRoom/>}/>
       <Route exact path="/SignUp" element={<SignUp/>}/>
       <Route exact path="/AboutUs" element={<AboutUs/>}/>
+      <Route exact path="/Plan_a_trip" element={<Plan_a_trip/>}/>
       </Routes>
     </>
   );
