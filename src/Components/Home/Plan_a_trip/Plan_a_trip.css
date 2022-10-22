@@ -1,3 +1,27 @@
-.plan_bg h1{
-    margin-top: 20px;
+.plan_bg{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 87vh;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(122, 142, 135);
+}
+.plan_heading{
+    display: flex;
+    width: 100vw;
+    height: 0vh;
+    justify-content: center;
+}
+
+.plan_form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    /* height: 0vh; */
+    justify-content: space-evenly;
+}
+.form_item{
+    display: flex;
+    column-gap: 40px;
 }
