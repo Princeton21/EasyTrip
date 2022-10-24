@@ -1,6 +1,6 @@
 import React from "react";
-import "./Plan_a_trip.css";
-const Plan_a_trip = () => {
+import "./PlanTrip.css";
+const PlanTrip = () => {
   return (
     <div className="plan_bg">
       <div className="plan_heading">
@@ -45,4 +45,4 @@ const Plan_a_trip = () => {
   );
 };
 
-export default Plan_a_trip;
+export default PlanTrip;
