@@ -5,6 +5,11 @@
     border-radius: 50%;
     margin-top: 10px;
     background-color: #E7A9A5;
+    cursor: pointer;
+}
+.logo:hover{
+    background-color: #F2C9C7;
+    
 }
 .nav-container{
     display: flex;
@@ -32,4 +37,9 @@ a:link{
     font-size: 20px;
     line-height: 33px;
     color: #E7A9A5;
+    cursor: pointer;;
+}
+.nav-container ul li a:hover{
+    color: #fc6e6e;
+    
 }
