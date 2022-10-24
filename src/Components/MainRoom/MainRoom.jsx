@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Sidebar from "./Sidebar/Sidebar";
 
 const MainRoom = () => {
   return (
     <>
-      <div>MainRoom</div>
+      <Sidebar />
     </>
-  )
-}
+  );
+};
 
-export default MainRoom
+export default MainRoom;
