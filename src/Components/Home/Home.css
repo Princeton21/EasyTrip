@@ -1,13 +1,7 @@
-
-body {
-  width: 100vw;
-  height: 100vh;
-}
-
 /* hero section */
 .hero-section {
   position: absolute;
-  width: 454px;
+  width: 100vw;
   height: 287px;
   left: 75px;
   top: 150px;
@@ -22,19 +16,27 @@ body {
   font-size: 64px;
   line-height: 77px;
 
-  color: #f6e9e9;
+  color: #303443;
 }
-.home_desc {
-  font-family: "Inter";
+.homedesc {
+  position: absolute;
+  width: 452px;
+  height: 130px;
+  top: 150px;
+  
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 27px;
+  font-size: 20px;
   line-height: 33px;
-  margin-top: 250px;
-  color: #ffffff;
+  
+  color: #303443;
+  
 }
+
+
 .centre_body {
-  width: 500px;
+  width: 100vw;
   height: 500px;
 }
 
@@ -44,6 +46,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 
 .plan,
 .join {
@@ -60,6 +63,64 @@ body {
 .join {
   margin-left: 20px;
 }
+.button {
+  padding: 1em 2em;
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f6e9e9;
+  margin-top: 80px;
+  gap: 5px;
+  z-index: 1;
+  cursor: pointer;
+ }
+ 
+ .button::after,
+  .button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+ }
+ 
+ .button::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #F18585;
+  border-radius: 50px;
+ }
+ 
+ .button::after {
+  transform: translate(0px, 0px);
+  width: 10px;
+  height: 10px;
+  background: #e7a9a5;
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  cursor: pointer;
+ }
+ 
+ .button:hover::before {
+  transform: translate(5%, 20%);
+  width: 10px;
+  height: 10px;
+ }
+ 
+ .button:hover::after {
+  border-radius: 50px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+ }
+ 
+ .button:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+ }
 
 .side-img {
   position: absolute;
@@ -73,16 +134,22 @@ body {
   border-radius: 52px;
 }
 
+.hero__img{
+   margin-top: -430px;
+   height: 200px;
+   width: 400px;
+   margin-left: 380px;
+}
 /* Steps */
 .steps {
   display: flex;
   gap: 10px;
   position: absolute;
-  width: 1260px;
+  width: 100vw;
   height: 228px;
   left: 0px;
   top: 700px;
-  background: #f6e9e9;
+  background: #FF9595;
 }
 
 .step1 {
@@ -90,50 +157,18 @@ body {
   width: 437px;
   height: 263px;
   left: 75px;
-  /* top: -37px; */
-  margin-top: -20px;
-  background: #f18585;
+  top: 60px;
+  
 }
 
-.s-header1 {
-  position: absolute;
-  width: 112px;
-  height: 39px;
-  left: 50px;
-  /* top: 827px; */
-  margin-top: 40px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 39px;
-  background-color: #f18585;
-  color: #272121;
-}
-
-.step-info1 {
-  position: absolute;
-  width: 229px;
-  height: 29px;
-  left: 50px;
-  /* top: 894px; */
-  margin-top: 100px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  color: #f6e9e9;
-  background-color: #f18585;
-}
 
 .step2 {
   position: absolute;
   width: 229px;
   height: 100px;
-  left: 568px;
-  top: 40px;
-  background-color: #f6e9e9;
+  left: 440px;
+  top: 60px;
+  background: #FF9595;
 }
 
 .s-header {
@@ -149,7 +184,7 @@ body {
   line-height: 39px;
   /* identical to box height */
   color: #272121;
-  background-color: #f6e9e9;
+  background: #FF9595;
 }
 
 .step-info {
@@ -165,17 +200,17 @@ body {
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
-  background-color: #f6e9e9;
-  color: #cc6331;
+  background: #FF9595;
+  color: #FAF3EB;
 }
 
 .step3 {
   position: absolute;
   width: 229px;
   height: 96px;
-  left: 880px;
-  top: 40px;
-  background-color: #f6e9e9;
+  left: 800px;
+  top: 60px;
+  background: #FF9595;
 }
 
 .navigate {
@@ -197,14 +232,14 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  margin-left: 180px;
+  margin-left: 200px;
   top: 850px;
   /* top: 884px; */
   border-radius: 50%;
-  background: #f18585;
+  background: #FAF3EB;
 }
 .c2 {
-  margin-left: 250px;
+  margin-left: 270px;
 }
 
 /* features */
@@ -212,7 +247,7 @@ body {
   position: absolute;
   width: 826px;
   height: 154px;
-  top: 1166px;
+  top: 1000px;
   left: 60px;
   align-self: center;
   font-family: "Inter";
@@ -221,7 +256,7 @@ body {
   font-size: 50px;
   line-height: 70px;
 
-  color: #f6e9e9;
+  color: #303443;
 }
 
 #ease {
@@ -238,97 +273,17 @@ body {
   background: #f6e9e9;
 }
 
-.feature1,
-.feature2,
-.feature3,
-.feature4 {
-  background: #f6e9e9;
-}
-#f-head {
-  position: absolute;
-  width: 274px;
-  height: 77px;
-  left: 512px;
-  top: 70px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 80px;
-  background: #f6e9e9;
-  color: #754e4e;
-}
-
-.features-list {
-  display: flex;
-  flex-direction: column;
-  gap: 5ex;
-  position: absolute;
-  width: 461px;
-  height: 230px;
-  left: 73px;
-  top: 200px;
-  background: #f6e9e9;
-}
-
-.f-icon {
-  margin-left: 70px;
-  height: 40px;
-  width: 40px;
-  background: #f18585;
-  border-radius: 50%;
-  /* line-height: 70px; */
-}
-.f1-box {
-  display: flex;
-  background: #f6e9e9;
-  gap: 5ex;
-}
-
-.f2-box {
-  display: flex;
-  background: #f6e9e9;
-  gap: 5ex;
-}
-
-.f-name {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22.8571px;
-  line-height: 30px;
-  /* identical to box height */
-  background: #f6e9e9;
-  color: #000000;
-}
-
-.f-info {
-  background: #f6e9e9;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17.1429px;
-  line-height: 21px;
-
-  color: #cc6331;
-}
-
-.features-side-img {
-  /* position: absolute; */
-  width: 550px;
-  height: 350px;
-  margin-left: 650px;
-  margin-top: 160px;
-  /* background: url(5793476.jpg); */
-  background-color: #e7a9a5;
-  border-radius: 52px;
+.features__svg{
+    margin-top: 550px;
 }
 
 footer {
   position: absolute;
-  width: 1434px;
-  height: 200px;
+  width: 100vw;
+  height: 100px;
   left: 6px;
-  top: 2000px;
+  top: 1800px;
   background: #f18585;
 }
+
+
