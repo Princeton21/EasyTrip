@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import HomeHero from './HomeHero';
+import Features from './Features';
 import './Home.css'
 const Home = () => {
   return (
@@ -8,24 +10,26 @@ const Home = () => {
         <div className="hero-section"> 
         <div id="info-section">     
         <div className="hometitle">Easy Trip</div>
-              <div className="homedesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magnam quae quas saepe earum neque. Culpa, sint asperiores? Dolore, maiores.</div>
+              <div className="homedesc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </div>
         <div className="buttons">
           <Link to="/Plan_a_trip">
-          <button className="plan">Plan a trip</button>
+          <button className='button'>Plan a trip</button>
           </Link>
-          <button className="join">Join a room</button>
+          <button className='button' id='join'>Join a room</button>
+       
         </div>
         </div>
-        <div className='side-img'>
-        </div>
+        <HomeHero/>
         </div>
       </div>
       <div className='steps'>
             <div className="step1">
-                <div className='s-header1'>
+                <div className='s-header'>
                  Step 1:
                 </div>
-                <div className='step-info1'>
+                <div className='step-info'>
                 lorem blah blah blah 
                 </div>
             </div>
@@ -56,54 +60,8 @@ const Home = () => {
           with.
           <span id="ease">Ease</span>
           </div>
-          
-          <div className='features-box'>
-                <div id="f-head">Features</div>
-                <div className='features-list'>
-                <div className='f1-box'>
-                <div className='feature1'>
-                  <div className='f-icon'></div>
-                  <span className='f-name'>Location Tracker</span>
-                  <div className='f-info'>
-                  lorem blah blah blah
-                  lorem blah blah blah 
-                  lorem   
-                  </div>
-                </div>
-                <div className='feature2'>
-                <div className='f-icon'></div>
-                  <span className='f-name'>Location Tracker</span>
-                  <div className='f-info'>
-                  lorem blah blah blah
-                  lorem blah blah blah 
-                  lorem   
-                  </div>
-                </div>
-                </div>
-                <div className='f2-box'>
-                <div className='feature3'>
-                <div className='f-icon'></div>
-                  <span className='f-name'>Location Tracker</span>
-                  <div className='f-info'>
-                  lorem blah blah blah
-                  lorem blah blah blah 
-                  lorem   
-                  </div>
-                </div>
-                <div className='feature4'>
-                <div className='f-icon'></div>
-                  <span className='f-name'>Location Tracker</span>
-                  <div className='f-info'>
-                  lorem blah blah blah
-                  lorem blah blah blah 
-                  lorem   
-                  </div>
-                </div>             
-                </div>
-                </div>
-                <div className='features-side-img'> </div>
-          </div>
       </div>
+      <Features/>
       <footer>
         
       </footer>
