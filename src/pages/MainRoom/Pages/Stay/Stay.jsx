@@ -1,8 +1,10 @@
 import React from 'react'
 
+
 const Stay = () => {
   return (
-    <div>Stay</div>
+    <>
+    Stay</>
   )
 }
 
