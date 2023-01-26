@@ -1,15 +1,15 @@
 import React from 'react'
 import { Route, Routes } from "react-router-dom";
-import Navbar from './components/Navbar/Navbar';
-import SignUp from "./components/SignUp/SignUp";
+import Navbar from './component/Navbar/Navbar';
+import SignUp from "./component/SignUp/SignUp";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import MainRoom from './pages/MainRoom/MainRoom';
 import Home from './pages/Home/Home';
 import PlanTrip from './pages/Home/Plan_a_trip/PlanTrip';
-import Dashboard from './pages/MainRoom/Pages/Dashboard/Dashboard';
-import Travel from './pages/MainRoom/Pages/Travel/Travel';
-import Eat from './pages/MainRoom/components/Map/Eat/Eat';
-import Stay from './pages/MainRoom/Pages/Stay/Stay';
+import Dashboard from './pages/MainRoom/pages/Dashboard/Dashboard';
+import Travel from './pages/MainRoom/pages/Travel/Travel';
+import Eat from './pages/MainRoom/pages/Eat/Eat';
+import Stay from './pages/MainRoom/pages/Stay/Stay';
 function App() {
   return (
     <>
