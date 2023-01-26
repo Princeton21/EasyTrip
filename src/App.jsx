@@ -6,10 +6,10 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import MainRoom from './pages/MainRoom/MainRoom';
 import Home from './pages/Home/Home';
 import PlanTrip from './pages/Home/Plan_a_trip/PlanTrip';
-import Dashboard from './pages/MainRoom/pages/Dashboard/Dashboard';
-import Travel from './pages/MainRoom/pages/Travel/Travel';
-import Eat from './pages/MainRoom/pages/Eat/Eat';
-import Stay from './pages/MainRoom/pages/Stay/Stay';
+import Dashboard from './pages/MainRoom/page/Dashboard/Dashboard';
+import Travel from './pages/MainRoom/page/Travel/Travel';
+import Eat from './pages/MainRoom/page/Eat/Eat';
+import Stay from './pages/MainRoom/page/Stay/Stay';
 function App() {
   return (
     <>

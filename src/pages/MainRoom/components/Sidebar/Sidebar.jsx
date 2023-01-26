@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { FaBars, FaTh } from "react-icons/fa";
 import { ImSpoonKnife } from "react-icons/im";
 import { BsHouseDoorFill} from "react-icons/bs";
-import { MdLogout, MdTravelExplore } from "react-icons/md";
-import { Link, NavLink } from "react-router-dom";
+import {  MdTravelExplore } from "react-icons/md";
+import {  NavLink } from "react-router-dom";
 import "./Sidebar.css";
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false); 
