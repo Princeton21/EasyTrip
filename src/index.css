@@ -1,8 +1,8 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* background-co1lor: #272121; */
+  /* background-co1lor: #272121; 
 }
 body {
   margin: 0;
@@ -21,4 +21,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
