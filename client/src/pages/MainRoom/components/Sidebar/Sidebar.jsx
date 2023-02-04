@@ -4,7 +4,7 @@ import { ImSpoonKnife } from "react-icons/im";
 import { BsHouseDoorFill} from "react-icons/bs";
 import {  MdTravelExplore } from "react-icons/md";
 import {  NavLink } from "react-router-dom";
-// import "./Sidebar.css";
+import "./Sidebar.css";
 const Sidebar = ({children}) => {
   const [isOpen, setIsOpen] = useState(false); 
   const toggle = () => setIsOpen(!isOpen);

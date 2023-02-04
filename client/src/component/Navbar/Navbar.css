@@ -12,12 +12,14 @@
     
 }
 .nav-container{
+    position: relative;
     display: flex;
     height: 13vh;
     width: 100vw;
     align-items: center;
     justify-content: space-between;
     background-color: #FAF3EB;
+    z-index: 1;
 
 }
 .nav-container ul {
