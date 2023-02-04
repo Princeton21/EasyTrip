@@ -3,12 +3,6 @@
     --dark-color:#290e0e;
 }
 
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
 .sidebar {
     position: fixed;
     background: var(--light-color);
@@ -93,6 +87,10 @@
 }
 .show{
     left:0;
+}
+
+.space-toggle{
+    padding-left:1rem;
 }
 
 
