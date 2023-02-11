@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+.about_us {
+    margin: 0;
+    background-color: #272121;
+    height: 100vh;
+    width: 100vw;
+    color: #F6E9E9;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* font-size: 12rem; */
+}
+
+.story_heading,
+.team_heading {
+    color: #F6E9E9;
+    font-size: 2rem;
+}
+
+span {
+    color: #F18585;
+}
+
+.story {
+    border: 1px solid #F6E9E9;
+    border-radius: 20px;
+    width: 90%;
+    padding: 20px 30px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+hr {
+    width: 9rem;
+}
+
+.team {
+    margin: auto;
+    align-content: center;
+    display: block;
+    width: 90%;
+    margin-top: 0%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.card_img {
+    height: 150px;
+    width: 145px;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.bg {
+    height: 95%;
+    width: 170px;
+    background-color: #F18585;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #F6E9E9;
+    ;
+    width: 40%;
+    /* position: absolute; */
+    margin-left: 10px;
+}
+
+.member_name {
+    color: #703B3B;
+    font-size: 1rem;
+    /* margin-left: -25px; */
+}
+
+.member_class {
+    font-size: 0.8rem;
+}
+
+.designation {
+    font-size: 0.5rem;
+}
+
+.info_social {
+    display: flex;
+    gap: 10px;
+}
+
+.socials {
+    display: flex;
+    gap: 2px;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+}
+
+.github_icon,
+.linkedin_icon {
+    height: 60%;
+}
+
+.members_cards {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
